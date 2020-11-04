@@ -1,30 +1,18 @@
-#Logo {
+.navbar {
     background-color: #edde07;
-    text-align: center;
-    width: 100%;
-    height: 30%;
 }
 
-#Login{
+.navbar-brand {
+    background-color: #edde07;
     color:#041e50;
     font-family: Arial;
     font-weight: bold;
-    text-decoration: none;
 }
 
-.Menu {
-    background-color: #041e50;
-    width: 100%;
-    height: 15%;
-    padding-top: 3px;
-    
-}
-
-.Menu a {
-    color:#edde07;
+.nav-link {
+    color: #1c0486;
     font-family: Arial;
     font-weight: bold;
-    text-decoration: none;
 }
 
 header {
@@ -47,21 +35,19 @@ main p {
     color:#041e50;
     font-family: Arial;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.Categorias {
+#Categorias {
     color:#041e50;
     font-family: Arial;
     font-size: 13.3px;
-    width: 15%;
-    display: block;
-    position: absolute;
 }
 
 .Produtos {
     margin-left: 15%;
     width: 100%;
+    display: inline-block;
 }
 
 .ItemProdutos {
@@ -86,7 +72,6 @@ main p {
 }
 
 .FaleConosco {
-    display: inline;
     color:#041e50;
     font-family: Arial;
     font-size: 18px;

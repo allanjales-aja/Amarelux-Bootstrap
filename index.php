@@ -3,20 +3,20 @@
     <head>
         <meta charset="UTF-8"/>
         <title>AmareLux Eletro</title>
-        <!--Conexão CSS-->
-        <link href="styles.css" rel="stylesheet" type="text/css">
-        <!--Conexão JS-->
-        <script src="funcoes.js"></script>
+        <!--Conexões-->
+        <?php
+            require_once('secundarios/conexoes_head.html')
+        ?>
     </head>
     <body>
         <!--Menu-->
         <?php
-            include_once('menu.html')
+            include_once('secundarios/menu.html')
         ?>
 
-        <main>
-            <h1>Seja bem vindx!</h1>
-            <p>Aqui em nossa loja, 
+        <main class = "jumbotron jumbotron-fluid">
+            <p class = "h1"><strong>Seja bem vindx!</strong></p>
+            <p class = "h4 mt-4">Aqui em nossa loja, 
                 <em onmouseover="destacarMain(this)" onmouseout="normalMain(this)">programadores têm desconto
                 </em> nos produtos para sua casa!
             </p>
@@ -24,7 +24,7 @@
 
         <!--Rodapé-->
         <?php
-            include_once('rodape.html')
+            include_once('secundarios/rodape.html')
         ?>
     </body>
 </html>
