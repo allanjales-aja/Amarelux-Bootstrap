@@ -51,6 +51,7 @@ create table ped
 cod_clientes tinyint(5) not null,
 cod_produtos tinyint(5) not null,
 quantidade tinyint(5) not null default 1,
+data_ped datetime default now(),
 primary key (cod_pedidos, cod_produtos),
 foreign key (cod_produtos) 
 references produtos (cod_produtos),
@@ -68,7 +69,7 @@ values
 (5, 1, 2);
 
 create view pedidos as
-select pe.cod_pedidos, c.nome_cli, c.endereco, c.telefone, pr.nome_prod, pr.descricao, pr.valor_unit, pe.quantidade, (pr.valor_unit * pe.quantidade) as valor_total
+select pe.cod_pedidos, c.nome_cli, c.endereco, c.telefone, pr.nome_prod, pr.descricao, pr.valor_unit, pe.quantidade, (pr.valor_unit * pe.quantidade) as valor_total, pe.data_ped
 from ped as pe, produtos as pr, clientes as c
 where pe.cod_produtos = pr.cod_produtos and pe.cod_clientes = c.cod_clientes
 order by pe.cod_pedidos;
@@ -77,7 +78,7 @@ create table mensagens
 (cod_mensagens int auto_increment,
 nome_msg varchar(50) not null,
 email varchar(50) not null,
-mensagem varchar(300) not null unique,
+mensagem varchar(300) not null,
 data_msg datetime default now(),
 primary key (cod_mensagens))character set utf8 collate utf8_unicode_ci;
 

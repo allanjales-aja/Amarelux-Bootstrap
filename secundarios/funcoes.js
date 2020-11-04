@@ -74,11 +74,11 @@ let normal = (produto) => {
 }
 
 let destacarMenu = (pagina) => {
-    pagina.style = "background-color: #0944b5";
+    pagina.style = "background-color: #e4db5b";
 }
 
 let normalMenu = (pagina) => {
-    pagina.style = "background-color: #041e50";
+    pagina.style = "background-color: #edde07";
 }
 
 let destacarLogo = (logo) => {
@@ -94,7 +94,7 @@ let destacarMain = (main) => {
 }
 
 let normalMain = (main) => {
-    main.style = "font-size: 18px; background-color: none;";
+    main.style = "font-size: 22px; background-color: none;";
 }
 
 let destacarLoja = (produto) => {

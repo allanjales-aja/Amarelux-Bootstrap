@@ -21,7 +21,7 @@
     <title>Mensagem Amarelux</title>
 </head>
 <body>
-    <h4><a href='index.php'>Página Inicial</a><h4>
+    <h4><a href='../index.php'>Página Inicial</a><h4>
 </body>
 </html>
 
@@ -37,7 +37,7 @@
             <title>Mensagem Amarelux</title>
         </head>
         <body>
-            <h4><a href='faleconosco.php'>Retornar a "Fale Conosco"</a><h4>
+            <h4><a href='../faleconosco.php'>Retornar a "Fale Conosco"</a><h4>
         </body>
         </html>
 <?php
