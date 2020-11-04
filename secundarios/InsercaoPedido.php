@@ -16,7 +16,11 @@
                 while($rows = $result->fetch_assoc()){
                     echo "<script>alert('Incluído no seu pedido.')</script>";
                     echo $rows['nome_cli'],", obrigado!";
+<<<<<<< HEAD
                     echo "<p><a href='../pedido.php'>Retornar a Pedidos</a></p>";
+=======
+                    echo "<p><a href='FormPedido.php'>Retornar a Pedidos</a></p>";
+>>>>>>> ac602863a15617adfd2ef5f843d8d2dee674897b
          
                     $cli =  $rows['cod_clientes'];
                     $sqli = "insert into ped (cod_clientes, cod_produtos, quantidade)

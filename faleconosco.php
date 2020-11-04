@@ -43,7 +43,11 @@
         <div class = "container mt-5 w-70">
             <div class = "row">
                 <div class = "col">
+<<<<<<< HEAD
                     <form class = "form-inline justify-content-center" method="post" action="secundarios/insercaofaleconosco.php">
+=======
+                    <form class = "form-inline justify-content-center" method="post" action="insercaofaleconosco.php">
+>>>>>>> ac602863a15617adfd2ef5f843d8d2dee674897b
                         <div class = "row mb-4">
                             <label for="nome" class="TituloGeral mr-2">Nome:</label>
                             <input class="form-control mr-3" type="text" id="nome" name="nome" placeholder = "Nome completo">

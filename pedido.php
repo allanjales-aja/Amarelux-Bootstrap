@@ -27,7 +27,11 @@
         </div>
 
         <div class = "container mr-5"> 
+<<<<<<< HEAD
             <form class = "form-inline justify-content-center" method = "post" action = "secundarios/InsercaoPedido.php">
+=======
+            <form class = "form-inline justify-content-center" method = "post" action = "InsercaoPedido.php">
+>>>>>>> ac602863a15617adfd2ef5f843d8d2dee674897b
                 <div class = "row mb-4">
                     <label for="prod" class="TituloGeral mr-2">Produto:</label>
                     <select class="form-control-md mr-5 bg-info text-white" name="prod" id="prod">
@@ -61,9 +65,16 @@
                     
                     <a class="btn btn-outline-success mr-3" href="cadastrar.php">Cadastre-se</a>
                 </div>
+<<<<<<< HEAD
 
                 <button class="btn btn-outline-dark btn-block w-50" type="submit" value="IncluirPedido">Incluir no Pedido</button>
             </form>
+=======
+            </form>
+            <div class = "row mb-4 justify-content-center"> 
+                <button class="btn btn-outline-dark" type="submit" value="IncluirPedido">Incluir no Pedido</button>
+            </div>
+>>>>>>> ac602863a15617adfd2ef5f843d8d2dee674897b
             <hr>
         </div>
 
